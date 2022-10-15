@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    text-align: center;
+    lighting-color: aliceblue;
+    outline-style: groove;
+    outline-width: 2px;
+    outline-color: lightblue;
+    color: whitesmoke;
+  }
+
+  h2{
+    text-decoration-line: underline;
+    outline: 1cm;
+    outline-color: black;
+    text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 2px;
+  }
+  button{
+    font-family: verdana;
+    font-size: 20px;
+    
+  }
+  article{
+    text-align:start;
+    color: blueviolet;
+
+  }
