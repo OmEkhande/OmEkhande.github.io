@@ -1,78 +1,81 @@
 body {
-    background-image: url('White\ cool\ background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  
-  h1 {
-    margin-top: auto;
-    lighting-color: rgb(0, 136, 255);
-    outline-style: groove;
-    outline-width: 1px;
-    outline-color: white;   
-    color: black;
-  }
+  background-image: url('White\ cool\ background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-  h2{
-    text-decoration-line: inherit;
-    outline: 1cm;
-    outline-color: rgb(255, 255, 255);
-    text-align: center;
-  }
-  p {
-    font-family: verdana;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    outline: auto;
-    outline-style: groove;
-    outline-width: 1px;
-    outline-color: black;
-    margin-left: 50%;
-    margin-right: 100%;
-    width: 50%;
-    height: 100%;
-    scroll-margin-bottom: 0%;
-    margin-top: 25%;
-  }
+h1 {
+  margin-top: auto;
+  lighting-color: rgb(0, 136, 255);
+  outline-style: groove;
+  outline-width: 1px;
+  outline-color: white;
+  color: black;
+}
 
-  article{
-    text-align:start;
-    color: blueviolet;
+h2 {
+  text-decoration-line: inherit;
+  outline: 1cm;
+  outline-color: rgb(255, 255, 255);
+  text-align: center;
+}
 
-  }
+p {
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  outline: auto;
+  outline-style: groove;
+  outline-width: 1px;
+  outline-color: black;
+  margin-left: 50%;
+  margin-right: 100%;
+  width: 50%;
+  height: 100%;
+  scroll-margin-bottom: 0%;
+  margin-top: 25%;
+}
 
-  img{
-    display: block;
-    margin-left: 0%;
-    margin-right: 100%;
-    width: 20%;
-    height: 20%;
-  }
-  h2{
-    font-family: verdana;
-    color: blue;
-  }
+article {
+  text-align: start;
+  color: blueviolet;
 
-  h3{
-    font-family: Helvetica;
-    margin-top: 1%;
-    margin-left:  10%;
-    outline: 2.5px;
-    outline-style: groove;
-    outline-color: whitesmoke;
-    outline-width: 0.01ch;
-    stroke: antiquewhite;
-    stroke-width: 1ch;
-    stroke-linecap: round;
-    
-  }
+}
+
+img {
+  display: block;
+  margin-left: 0%;
+  margin-right: 100%;
+  width: 20%;
+  height: 20%;
+}
+
+h2 {
+  font-family: verdana;
+  color: blue;
+}
+
+h3 {
+  font-family: Helvetica;
+  margin-top: 1%;
+  margin-left: 10%;
+  outline: 2.5px;
+  outline-style: groove;
+  outline-color: whitesmoke;
+  outline-width: 0.01ch;
+  stroke: antiquewhite;
+  stroke-width: 1ch;
+  stroke-linecap: round;
+
+}
 
 /* Style the top navigation bar */
 .navbar {
-  overflow: hidden; /* Hide overflow */
-/*  background-color: #333; /* Dark background color */
+  overflow: hidden;
+  /* Hide overflow */
+  /*  background-color: #333; /* Dark background color */
   background-color: black;
   margin-bottom: 10px;
   width: 100%;
@@ -86,19 +89,27 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
+  float: left;
+  /* Make sure that the links stay side-by-side */
+  display: block;
+  /* Change the display to block, for responsive reasons (see below) */
+  color: white;
+  /* White text color */
+  text-align: center;
+  /* Center the text */
+  padding: 14px 20px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline */
 
 }
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
+  background-color: #ddd;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
 }
 
 /* Change color on active/mouse-over */
