@@ -1,0 +1,72 @@
+body{
+    background-image: url(this.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+  /*  background-color: #333; /* Dark background color */
+    background-color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: fixed;
+    padding: 0%;
+    box-shadow: 4px 4px 5px 1px white;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  
+  /* Change color on active/mouse-over */
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+p{
+    margin-top: 120px;
+    font-size: 20px;
+    line-height: auto;
+    font-synthesis: style;
+    display: block;
+    margin-bottom: 10px;
+    color: #ffff;
+    shape-margin: 12%;
+    margin-left: 56%;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+
+}
+
+h1{
+    font-size: 40px;
+    line-height: normal;
+    stroke: #ffff;
+    text-shadow: 2px 2px white;
+    
+}
+
