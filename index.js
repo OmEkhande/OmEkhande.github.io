@@ -17,3 +17,5 @@ console.log(positionElement(box, 50, 150));
 console.log(box.style.left); // 👉️ "50px"
 console.log(box.style.top); // 👉️ "150px"
 
+const game = document.getElementById('game')
+game.style.resize = 1000;
