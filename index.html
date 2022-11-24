@@ -42,8 +42,12 @@
     <!--   <img src="IMG-20220928-WA0006.jpg", class = "center"> -->
 
     <!--Code For Paragraph-->
-    <p>Made with Javascript, Html and CSS,
-        check the 'languages used' tab for more info.
+    <div class="container">
+        <p>Made with Javascript, Html and CSS,
+            check the 'languages used' tab for more info.
+        </p>
+    </div>
+
 
 
 
@@ -60,8 +64,23 @@
     <script src="index.js"></script>
     <!--Start of Tawk.to Script-->
 
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <?php
+    $isMobile = (bool)preg_match('#\b(ip(hone|od|ad)|android|opera m(ob|in)i|windows (phone|ce)|blackberry|tablet'.
+        '|s(ymbian|eries60|amsung)|p(laybook|alm|rofile/midp|laystation portable)|nokia|fennec|htc[\-_]'.
+        '|mobile|up\.browser|[1-4][0-9]{2}x[1-4][0-9]{2})\b#i', $_SERVER['HTTP_USER_AGENT'] );
+    if($isMobile){ ?>
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css" />
+    <?php } ?>
 
 <body>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID"
+        data-login_uri="https://your.domain/your_login_endpoint" data-auto_prompt="false">
+    </div>
+    <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline" data-text="sign_in_with"
+        data-shape="rectangular" data-logo_alignment="left">
+    </div>
 </body>
 
 </html>

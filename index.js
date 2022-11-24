@@ -14,8 +14,18 @@ function positionElement(el, x, y) {
 const box = document.getElementById('box');
 console.log(positionElement(box, 50, 150));
 
-console.log(box.style.left); // 👉️ "50px"
-console.log(box.style.top); // 👉️ "150px"
+console.log(box.style.left);
+console.log(box.style.top);
 
 const game = document.getElementById('game')
 game.style.resize = 1000;
+
+google.accounts.id.initialize(IdConfiguration)
+window.onload = function () {
+  google.accounts.id.initialize({
+    client_id: 'https://omekhande.github.io/',
+    callback: handleCredentialResponse
+  });
+  google.accounts.id.prompt();
+};
+
