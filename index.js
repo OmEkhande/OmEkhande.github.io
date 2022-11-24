@@ -2,7 +2,7 @@ const navbar = document.getElementById('navbar')
 
 navbar.style.position = 'absolute';
 navbar.style.top = '10px';
-console.log(navbar.style.top); // 👉️ "150px"
+console.log(navbar.style.top);
 
 
 function positionElement(el, x, y) {
