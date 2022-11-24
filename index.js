@@ -23,7 +23,7 @@ game.style.resize = 1000;
 google.accounts.id.initialize(IdConfiguration)
 window.onload = function () {
   google.accounts.id.initialize({
-    client_id: 'https://omekhande.github.io/',
+    client_id: '350792185982-e6pkppmkod64j2ufnf8muo9afbe29tlo.apps.googleusercontent.com',
     callback: handleCredentialResponse
   });
   google.accounts.id.prompt();
