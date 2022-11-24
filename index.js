@@ -11,7 +11,7 @@ function positionElement(el, x, y) {
   el.style.top = y + 'px';
 }
 
-const box = document.getElementById('box');
+const box = document.getElementById('navbar');
 console.log(positionElement(box, 50, 150));
 
 console.log(box.style.left);
