@@ -26,6 +26,6 @@ window.onload = function () {
     client_id: '350792185982-e6pkppmkod64j2ufnf8muo9afbe29tlo.apps.googleusercontent.com',
     callback: handleCredentialResponse
   });
-  google.accounts.id.prompt();
+  google.accounts.id.prompt('hello');
 };
 
